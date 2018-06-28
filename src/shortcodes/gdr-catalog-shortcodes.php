@@ -92,7 +92,7 @@ class GDR_Catalog_Shortcodes extends Hook {
     if ( isset( $atts['test_mode'] ) && 0 === strcasecmp( 'true', $atts['test_mode'] ) ) {
       $gdr_api_url = 'https://gdrscholars.api.dev.gios.asu.edu/api/v1';
     } else {
-      $gdr_api_url = 'https://gdrscholars.api.dev.gios.asu.edu/api/v1';
+      $gdr_api_url = 'https://gdrscholars.api.gios.asu.edu/api/v1';
     }
 
     $app_root_url = $this->get_option_attribute_or_default(
